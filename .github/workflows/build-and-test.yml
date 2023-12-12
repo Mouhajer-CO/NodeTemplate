@@ -1,9 +1,9 @@
-name: Node.js CI
+name: Node.js Build and Tests
 
 on: [pull_request]
 
 jobs:
-  build:
+  build-and-test:
 
     runs-on: ubuntu-latest
 
