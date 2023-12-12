@@ -1,7 +1,7 @@
-import { ApplicationLogger } from "logging/dist/ApplicationLogger";
-import { createLogger } from "logging";
+import { ApplicationLogger } from 'logging/dist/ApplicationLogger';
+import { createLogger } from 'logging';
 
-import { APPLICATION_NAME } from "../config";
+import { APPLICATION_NAME } from '../config';
 
 let logger: ApplicationLogger | undefined = undefined;
 
