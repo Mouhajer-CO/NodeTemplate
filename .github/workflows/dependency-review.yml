@@ -17,6 +17,6 @@ jobs:
       - name: Dependency Review
         uses: actions/dependency-review-action@v2
         with:
-          base-ref: ${{ github.event.pull_request.base.sha || 'main' }}
-          head-ref: ${{ github.event.pull_request.head.sha || github.ref }}
+          base-ref: 'main'
+          head-ref: 'main'
           fail-on-severity: critical
